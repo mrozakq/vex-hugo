@@ -1,0 +1,179 @@
+---
+label: Homepage (pl)
+hide_body: true
+fields:
+- type: field_group
+  name: banner
+  label: banner
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+  - type: file
+    name: image
+    label: image
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
+- type: field_group
+  name: features
+  label: features
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: image
+    label: image
+  - type: field_group_list
+    name: left_side
+    label: left_side
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: content
+      label: content
+  - type: field_group_list
+    name: right_side
+    label: right_side
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: content
+      label: content
+- type: field_group
+  name: promo
+  label: promo
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+- type: field_group
+  name: about_product
+  label: about_product
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: items
+    label: items
+    fields:
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: content
+      label: content
+    - type: field_group
+      name: button
+      label: button
+      fields:
+      - type: boolean
+        name: enable
+        label: enable
+      - type: text
+        name: label
+        label: label
+      - type: text
+        name: link
+        label: link
+- type: field_group
+  name: products
+  label: products
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+- type: field_group
+  name: subscription
+  label: subscription
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: file
+    name: bg_image
+    label: bg_image
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: content
+    label: content
+  - type: text
+    name: placeholder
+    label: placeholder
+- type: field_group
+  name: testimonial
+  label: testimonial
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: testimonial_item
+    label: testimonial_item
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: designation
+      label: designation
+    - type: file
+      name: image
+      label: image
+    - type: textarea
+      name: content
+      label: content
